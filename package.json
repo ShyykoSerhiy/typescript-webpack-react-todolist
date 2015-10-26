@@ -1,0 +1,36 @@
+{
+  "name": "typescript-webpack-react-todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "./node_modules/typescript/bin/tsc",
+    "test": "mocha --recursive"
+  },
+  "author": "Shyyko Serhiy <shyyko.serhiy@gmail.com>",
+  "dependencies": {
+    "fbjs": "^0.2.1",
+    "material-ui": "^0.12.1",
+    "react": "^0.13.3",
+    "react-redux": "^3.1.0",
+    "react-router": "^1.0.0-rc3",
+    "react-tap-event-plugin": "~0.1.0",
+    "redux": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "babel-loader": "^5.3.2",
+    "chai": "^3.4.0",
+    "css-loader": "^0.19.0",
+    "cssnext-loader": "^1.0.1",
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.9.2",
+    "gulp-util": "^3.0.6",
+    "mocha": "^2.3.3",
+    "style-loader": "^0.12.4",
+    "ts-loader": "^0.6.0",
+    "typescript": "^1.6.2",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
+}

@@ -1,0 +1,46 @@
+:root {
+    --backgroundColor: #303030;
+    --primaryColor: #ff4081;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--backgroundColor);
+}
+
+body {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.demo {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.demo-row {
+    display: table-row;
+}
+
+.center-padding {
+    display: table-cell;
+    width: 20%;
+}
+
+.center {
+    display: table-cell;
+}
+
+::-webkit-scrollbar {
+    background-color: var(--backgroundColor);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primaryColor);
+}
