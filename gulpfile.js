@@ -6,8 +6,8 @@ var webpack = require('webpack');
 var WebpackDevServer = require('webpack-dev-server');
 var webpackConfig = require('./webpack.config.js');
 var path = require('path');
-var mocha = require('mocha');
-require('ts-node').register({})
+var mocha = require('gulp-mocha');
+require('ts-node').register({project:path.join(__dirname, "test")});
 
 
 gulp.task('copy-html', function () {
@@ -29,13 +29,15 @@ gulp.task('build-dev', ['webpack:build-dev'], function () {
 // Production build
 gulp.task('build', ['webpack:build']);
 
+gulp.task('dev', ['webpack-dev-server']);
+
 gulp.task('test', function(){
     return gulp.src('test/actions/todoActions.tsx', {read: false})
         // gulp-mocha needs filepaths so you can't have any plugins before it
         .pipe(mocha({reporter: 'nyan'}));
 });
 
-gulp.task('webpack:build', ['copy-html'], function (callback) {
+gulp.task('webpack:build', ['test', 'copy-html'], function (callback) {
     // modify some webpack config options
     var myConfig = Object.create(webpackConfig);
     myConfig.plugins = myConfig.plugins || [];
