@@ -5,18 +5,17 @@
 /// <reference path="assertion-error/assertion-error.d.ts" />
 /// <reference path="chai/chai.d.ts" />
 /// <reference path="mocha/mocha.d.ts" />
+/// <reference path="react/react-dom.d.ts" />
 
 declare namespace __MaterialUI {
     import React = __React;
     namespace Table {
         interface TableHeaderColumnProps {
             colSpan?: number;
-            style?: React.CSSProperties;
         }
 
         interface TableRowColumnProps {
             colSpan?: number;
-            style?: React.CSSProperties;
         }
     }
     namespace Styles{

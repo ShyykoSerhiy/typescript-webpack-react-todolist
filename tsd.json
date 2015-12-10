@@ -6,25 +6,28 @@
   "bundle": "typings/tsd.d.ts",
   "installed": {
     "react/react.d.ts": {
-      "commit": "3191f6e0088eee07c4d8fd24e4d27a40a60d9eb9"
+      "commit": "f8af639bf29b2b00e5d27ce93c0f046564b8525c"
     },
     "material-ui/material-ui.d.ts": {
-      "commit": "3191f6e0088eee07c4d8fd24e4d27a40a60d9eb9"
+      "commit": "f8af639bf29b2b00e5d27ce93c0f046564b8525c"
     },
     "redux/redux.d.ts": {
-      "commit": "3191f6e0088eee07c4d8fd24e4d27a40a60d9eb9"
+      "commit": "f8af639bf29b2b00e5d27ce93c0f046564b8525c"
     },
     "react-redux/react-redux.d.ts": {
-      "commit": "3191f6e0088eee07c4d8fd24e4d27a40a60d9eb9"
+      "commit": "f8af639bf29b2b00e5d27ce93c0f046564b8525c"
     },
     "chai/chai.d.ts": {
-      "commit": "3191f6e0088eee07c4d8fd24e4d27a40a60d9eb9"
+      "commit": "f8af639bf29b2b00e5d27ce93c0f046564b8525c"
     },
     "assertion-error/assertion-error.d.ts": {
-      "commit": "3191f6e0088eee07c4d8fd24e4d27a40a60d9eb9"
+      "commit": "f8af639bf29b2b00e5d27ce93c0f046564b8525c"
     },
     "mocha/mocha.d.ts": {
-      "commit": "3191f6e0088eee07c4d8fd24e4d27a40a60d9eb9"
+      "commit": "f8af639bf29b2b00e5d27ce93c0f046564b8525c"
+    },
+    "react/react-dom.d.ts": {
+      "commit": "f8af639bf29b2b00e5d27ce93c0f046564b8525c"
     }
   }
 }
